@@ -43,4 +43,10 @@ main {
   position: fixed;
   bottom: 120px;
   right: 20px;
+  cursor: pointer;
+  transition: all 1s ease-in-out;
+}
+
+.write-btn:hover {
+  background-color: rgba(254, 111, 15, 0.8);
 }
